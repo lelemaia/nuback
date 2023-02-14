@@ -8,14 +8,13 @@ nuback
 - Apagar despesa
 - Editar despesa
 
+### Cadastro de despesa
 
-###Cadastro de despesa
-
-nubeck//api/v1/despesas
+POST nubeck//api/v1/despesas
 
 **Exemplo de Entrada**
 
-````json
+```json
 {
   valor: 100,
   categoria: 'lazer'
